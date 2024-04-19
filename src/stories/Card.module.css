@@ -1,0 +1,58 @@
+.card {
+  position: relative;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  min-height: 350px;
+  overflow: hidden;
+  min-width: 210px;
+}
+
+.card_info {
+  padding: 10px;
+}
+.title {
+  font-weight: 700;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+.writer {
+  padding-top: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.writer span {
+  color: #7e38e1;
+}
+.tag_container {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 10px;
+}
+.mainTag {
+  display: inline-block;
+  padding: 1px 8px;
+  color: rgb(27, 27, 128);
+  font-size: 13px;
+  border: 1px solid rgb(27, 27, 128);
+  border-radius: 20px;
+  word-break: break-all;
+  margin-right: 5px;
+}
+.subTag {
+  display: inline-block;
+  padding: 1px 8px;
+  color: #888;
+  font-size: 13px;
+  border: 1px solid #888;
+  border-radius: 20px;
+  word-break: break-all;
+  margin-right: 5px;
+}
+.card_img {
+  height: 200px;
+  width: 100%;
+}

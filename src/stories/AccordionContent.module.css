@@ -1,0 +1,65 @@
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+  background-color: transparent;
+  background-image: none;
+  border: none;
+  cursor: pointer;
+}
+.accordion_container {
+  width: 100%;
+}
+
+.accordion {
+  list-style: none;
+}
+
+.accordion_item {
+  position: relative;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  line-height: 40px;
+  border-bottom: 1px solid #ccc;
+  min-height: 40px; /* 최소 높이 40px로 설정 */
+}
+
+.accordion_item:last-child {
+  border-bottom: none;
+}
+
+.sub_menu {
+  list-style: none;
+  padding: 5px;
+  background-color: #eee;
+}
+
+.accordion-ex-1 {
+  border: 1px solid #000;
+  width: 200px;
+}
+
+.open_section {
+  overflow: hidden;
+  max-height: 1000px;
+  transition: max-height 0.5s ease-in-out;
+}
+
+.close_section {
+  overflow: hidden;
+  max-height: 0;
+}
+
+.accordion_sub {
+  background: #ededed;
+}
+
+.cursor_pointer {
+  cursor: pointer;
+}
+
+.cursor_default {
+  cursor: default;
+}

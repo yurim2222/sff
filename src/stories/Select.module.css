@@ -1,0 +1,18 @@
+.select_container {
+  position: relative;
+  display: inline-block;
+}
+.select_box {
+  display: block;
+  margin: 10px;
+  width: 100%;
+  padding: 10px 20px;
+  margin-top: 10px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 3px rgba(100, 100, 100, 0.15);
+}
+.select_bo:focus {
+  border: 1px solid rgb(9, 9, 181);
+}

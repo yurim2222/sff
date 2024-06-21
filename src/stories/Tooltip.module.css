@@ -1,0 +1,122 @@
+.tooltip {
+  cursor: default;
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip_click {
+  cursor: pointer;
+}
+
+.tooltip_click,
+.tooltip_hover {
+  background: none;
+  border: none;
+}
+.tooltip_hover_text_rb,
+.tooltip_hover_text_rt,
+.tooltip_hover_text_lb,
+.tooltip_hover_text_lt,
+.tooltip_click_text_rb,
+.tooltip_click_text_rt,
+.tooltip_click_text_lb,
+.tooltip_click_text_lt {
+  display: block;
+  position: absolute;
+  background-color: #e5f6ff;
+  color: #000;
+  border-radius: 10px;
+  padding: 10px 15px;
+  z-index: 1;
+  font-size: 14px;
+  box-shadow: 0 3px 5px rgba(100, 100, 100, 0.2);
+}
+.tooltip_click_text_rb::after,
+.tooltip_hover_text_rb::after {
+  content: "";
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 10px solid #e5f6ff;
+  position: absolute;
+  top: -10px;
+  right: 0;
+  transform: translateX(-50%);
+}
+
+.tooltip_click_text_lb::after,
+.tooltip_hover_text_lb::after {
+  content: "";
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 10px solid #e5f6ff;
+  position: absolute;
+  top: -10px;
+  left: 20%;
+  transform: translateX(-50%);
+}
+
+.tooltip_click_text_rt::after,
+.tooltip_hover_text_rt::after {
+  content: "";
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 10px solid #e5f6ff;
+  position: absolute;
+  bottom: -10px;
+  right: 0;
+  transform: translateX(-50%);
+}
+.tooltip_click_text_lt::after,
+.tooltip_hover_text_lt::after {
+  content: "";
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 10px solid #e5f6ff;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  transform: translateX(50%);
+}
+
+/* 말풍선을 보이게 하는 스타일 */
+.tooltip_hover_text_rb {
+  bottom: -50px;
+  right: -3px;
+}
+
+.tooltip_click_text_rb {
+  bottom: -50px;
+  right: -3px;
+}
+.tooltip_hover_text_rt {
+  top: -50px;
+  right: -3px;
+}
+
+.tooltip_click_text_rt {
+  top: -50px;
+  right: -3px;
+}
+.tooltip_hover_text_lb {
+  bottom: -50px;
+  left: -3px;
+}
+
+.tooltip_click_text_lb {
+  bottom: -50px;
+  left: -3px;
+}
+.tooltip_hover_text_lt {
+  top: -50px;
+  left: -3px;
+}
+
+.tooltip_click_text_lt {
+  top: -50px;
+  left: -3px;
+}
+
+.text_area {
+  display: block;
+  text-wrap: nowrap;
+}

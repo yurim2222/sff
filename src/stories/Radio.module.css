@@ -1,0 +1,23 @@
+.radio_row {
+  padding: 10px;
+}
+.radio_row label {
+  margin-right: 10px;
+}
+.radio_column {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 8px;
+}
+
+.radio_filled {
+  background: #fff;
+  border: 5px;
+  border-radius: 5px;
+}
+
+.radio_border {
+  border: 1px dashed #2d4373;
+  border-radius: 5px;
+}

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Button from './SButton';
+import Button from './Button';
 import styles from './Prompt.module.css';
 import { ConfirmProps } from '../atoms';
 

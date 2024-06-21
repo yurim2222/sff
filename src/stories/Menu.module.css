@@ -1,0 +1,62 @@
+.menu {
+  position: relative;
+  display: flex;
+  gap: 30px;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.pointer {
+  cursor: pointer;
+}
+.firstMenu {
+  display: block;
+  line-height: 25px;
+  padding: 0 5px;
+  cursor: default;
+}
+
+.firstMenu:hover .eachSubMenu,
+.eachSubMenu:hover {
+  display: block;
+}
+
+.eachSubMenu {
+  position: absolute;
+  top: 30px;
+  display: none;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.eachSubMenu li:hover {
+  background-color: #eee;
+}
+
+.eachSubMenu li {
+  white-space: nowrap;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.totalMenuDiv {
+  display: none;
+  gap: 30px;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.totalMenuDiv li {
+  display: block;
+  line-height: 25px;
+  padding: 3px 5px;
+  cursor: pointer;
+}
+.menuDiv:hover .totalMenuDiv {
+  display: flex;
+  background-color: #fff;
+}
+.menuDiv:hover .totalMenuDiv:hover li:hover {
+  font-weight: bold;
+}

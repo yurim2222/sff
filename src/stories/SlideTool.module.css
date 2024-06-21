@@ -1,0 +1,91 @@
+.top_tool_container {
+  position: fixed;
+  top: -100%;
+  left: 0;
+  width: 100vw;
+  z-index: 10;
+  background: #fff;
+  box-shadow: 3px 0 5px rgba(100, 100, 100, 0.2);
+}
+.top_tool_container_active {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 10;
+  transition: 0.3s;
+  background: #fff;
+  box-shadow: 3px 0 5px rgba(100, 100, 100, 0.2);
+}
+.bottom_tool_container {
+  position: fixed;
+  bottom: -100%;
+  left: 0;
+  width: 100vw;
+  z-index: 10;
+  background: #fff;
+  box-shadow: 3px 0 5px rgba(100, 100, 100, 0.2);
+}
+.bottom_tool_container_active {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 10;
+  transition: 0.3s;
+  background: #fff;
+  box-shadow: 3px 0 5px rgba(100, 100, 100, 0.2);
+}
+.left_tool_container {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  height: 100vh;
+  z-index: 10;
+  background: #fff;
+  box-shadow: 0 0 5px rgba(100, 100, 100, 0.2);
+}
+.left_tool_container_active {
+  position: fixed;
+  top: 0;
+  left: 0%;
+  height: 100vh;
+  z-index: 10;
+  transition: 0.3s;
+  background: #fff;
+  box-shadow: 0 0 6px rgba(60, 60, 60, 0.2);
+}
+.right_tool_container {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  height: 100vh;
+  z-index: 10;
+  background: #fff;
+  box-shadow: 0 0 6px rgba(60, 60, 60, 0.2);
+}
+.right_tool_container_active {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  z-index: 10;
+  transition: 0.3s;
+  background: #fff;
+  box-shadow: 0 0 6px rgba(60, 60, 60, 0.2);
+}
+
+.top_x_btn {
+  color: #fff;
+  position: absolute;
+  right: 100px;
+  top: 7px;
+  cursor: pointer;
+}
+.side_x_btn {
+  color: #000;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+}

@@ -1,0 +1,83 @@
+.screenContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 50;
+  background: rgba(0, 0, 0, 0.15);
+  width: 100%;
+  height: 100%;
+  animation-name: slidein;
+  animation-duration: 0.5s;
+}
+.dialogContainerFullScreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 25px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  animation-name: slidein;
+  animation-duration: 0.2s;
+}
+.dialogContainer {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 5px;
+  box-shadow: 0 0 6px rgba(50, 50, 50, 0.15);
+  padding: 15px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  width: 500px;
+  min-height: 150px;
+  background: #fff;
+  animation-name: slidein;
+  animation-duration: 0.2s;
+}
+
+.textContainerBasic {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.textContainerCenter {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.buttonContainerCenter {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+}
+.buttonContainer {
+  position: absolute;
+  display: flex;
+  gap: 10px;
+  bottom: 15px;
+  right: 10px;
+}
+@keyframes slidein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@-webkit-keyframes slidein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}

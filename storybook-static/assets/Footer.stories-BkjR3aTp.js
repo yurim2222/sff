@@ -1,0 +1,7 @@
+import{j as o}from"./jsx-runtime-Bdgnjw47.js";import"./index-Ccz02SFX.js";const i="_footer_1p4fb_1",d="_logo_1p4fb_7",m="_p_1p4fb_21",r={footer:i,logo:d,p:m};function l({logo:s,indexUrl:a,color:p="#ccc"}){return o.jsx("footer",{className:r.footer,style:{background:p},children:o.jsxs("div",{children:[o.jsx("div",{className:r.logo,children:s&&o.jsx("img",{src:s,alt:"logo",onClick:()=>console.log(a)})}),o.jsxs("p",{className:r.p,children:["(82)2-494-4707 / soxcom@naver.com ",o.jsx("br",{}),"301ho, 23, Seokgye-ro 18-gil, Nowon-gu, Seoul, 01886 Republic of Korea",o.jsx("br",{}),"© 2018-2022 by S.O.X Co.Ltd. All rights reserved",o.jsx("br",{})]})]})})}l.__docgenInfo={description:"",methods:[],displayName:"Footer",props:{logo:{required:!1,tsType:{name:"string"},description:""},indexUrl:{required:!1,tsType:{name:"string"},description:""},color:{required:!1,tsType:{name:"string"},description:"",defaultValue:{value:'"#ccc"',computed:!1}}}};const g=""+new URL("SoxLogo-BAYku2Yz.png",import.meta.url).href,x={title:"UI/Footer",component:l,parameters:{layout:"fullscreen"},tags:["autodocs"]},e={args:{logo:`${g}`,indexUrl:"https://www.soxcorp.co.kr/SOXHome/",color:"#ccc"}};var t,c,n;e.parameters={...e.parameters,docs:{...(t=e.parameters)==null?void 0:t.docs,source:{originalSource:`{
+  args: {
+    logo: \`\${logo}\`,
+    indexUrl: 'https://www.soxcorp.co.kr/SOXHome/',
+    color: "#ccc"
+  }
+}`,...(n=(c=e.parameters)==null?void 0:c.docs)==null?void 0:n.source}}};const _=["FooterComponent"];export{e as FooterComponent,_ as __namedExportsOrder,x as default};

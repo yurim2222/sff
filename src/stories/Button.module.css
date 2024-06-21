@@ -1,8 +1,8 @@
-button:hover {
+.Button:hover {
   filter: opacity(0.9);
 }
 
-button {
+.Button {
   border: none;
   cursor: pointer;
 }

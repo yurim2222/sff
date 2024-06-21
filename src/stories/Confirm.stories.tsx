@@ -1,6 +1,6 @@
 import type { StoryObj } from '@storybook/react';
 import { Confirm } from './Confirm'
-import SButton from './SButton';
+import SButton from './Button';
 
 const withCustomDecorator = (StoryComponent: React.ComponentType) => (
   <div style={{ height: '100px', textAlign: 'center', padding: '100px', overflow: 'hidden' }}>

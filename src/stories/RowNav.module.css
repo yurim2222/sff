@@ -1,0 +1,8 @@
+.rowNav {
+  display: flex;
+  gap: 30px;
+}
+
+.pointer {
+  cursor: pointer;
+}

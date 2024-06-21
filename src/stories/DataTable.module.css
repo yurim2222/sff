@@ -1,0 +1,32 @@
+.searchInput {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  height: 30px;
+  margin-bottom: 10px;
+  padding: 0px 5px;
+}
+select {
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin-right: 10px;
+}
+.tableUi table {
+  border: 1px solid #b4babf;
+  border-radius: 2px;
+}
+
+.divideBorder td {
+  border-bottom: 1px solid #b4babf;
+}
+.divideBorder tr:last-child td {
+  border-bottom: none;
+}
+
+.stripe tr:nth-child(even) td {
+  background-color: #d0d0d03c;
+}
+.pagination button {
+  background: transparent;
+  border: none;
+  padding: 3px;
+}
